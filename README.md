@@ -1,109 +1,100 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/THjcgH6/4945068991081197222.jpg" alt="4945068991081197222" border="0"></a>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>XAMPP-Setup - Download and Installation</h1>
+Here’s a step-by-step guide on how to install XAMPP on Windows, along with descriptions of where you might include screenshots:.<br />
 
 
+<h2>Requirements:</h2>
+
+- A Computer
+- A stable Internet connection
+
+<h2>1.Download the XAMPP</h2>
+
+Navigate to the following link from your Windows Server and download the required version of XAMPP for Windows https://www.apachefriends.org/index.html
+
+[<a href="https://ibb.co/b2tcM4L"><img src="https://i.ibb.co/k9ZNsL0/4945068991081197223.jpg" alt="4945068991081197223" border="0"></a>](https://ibb.co/b2tcM4L)<br>
+Depending on your browser, you may first have to select a save location or verify the download
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>2.Double-click the downloaded file. </h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Microsoft Remote Desktop (RDP)
-- Internet Information Services (IIS)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> 
-
-<h2>List of Prerequisites</h2>
-
-- Azure Virtual Machine
-- osTicket Installation files
-- Heidi SQL
-
-<h2>Installation Steps</h2>
-
-<p>
-</p>
-<p>
-Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+- This file should be named something like xampp-win32-7.2.4-0-VC15-installer, and you'll find it in the default downloads location (e.g., the "Downloads" folder or the desktop).</b><br>
+<a href="https://ibb.co/ZLVS83k"><img src="https://i.ibb.co/kHxJ8pW/4945068991081197224.jpg" alt="4945068991081197224" border="0"></a>
   
- <img src="https://i.imgur.com/OPaIGoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<p>
-</p>
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
-</p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+
+<h2>3. Click Yes when prompted.</h2>
+
+- This will open the XAMPP setup window.
+You may have to click OK on a warning if you have User Account Control (UAC) activated on your computer<br>
+
+<a href="https://ibb.co/H499N7R"><img src="https://i.ibb.co/sRXX5jc/4945068991081197225.jpg" alt="4945068991081197225" border="0"></a>
+
+<h2>4. Start Installation</h2><br>
+
+<a href="https://ibb.co/XVM8Tv2"><img src="https://i.ibb.co/YbwZGqR/4945068991081197226.jpg" alt="4945068991081197226" border="0"></a>
+
+
+<h2>5.Check all and next </h2>
+
+- Make sure all the checkbox are selected as per screenshot.</b><br>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/kMpBKND/4945068991081197227.jpg" alt="4945068991081197227" border="0"></a>
+  
+
+<h2>6.Select an installation location. .</h2>
+
+- Click the folder-shaped icon to the right of the current installation destination, then click a folder on your computer.
+If you have the UAC activated on your computer, avoid installing XAMPP in your hard drive's folder (e.g., OS (C:)).
+You can select a folder (e.g., Desktop) and then click Make New Folder to create a new folder and select it as the installation destination..<br>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/wYD0rwP/4945068991081197228.jpg" alt="4945068991081197228" border="0"></a>
+
+
+<h2>7. Uncheck the "Learn more about Bitnami" box, then click</h2><br>
+The "Learn more about Bitnami" box is in the middle of the page.<br>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/8Bvh1v9/4945068991081197230.jpg" alt="4945068991081197230" border="0"></a>
+
+<h2>8.Final next </h2>
+</b><br>
+<a href="https://ibb.co/2K8Rkjf"><img src="https://i.ibb.co/5cYCR5f/7-final-next.jpg" alt="7-final-next" border="0"></a>
+  
+
+<h2>9.Wait till installation process complete then Check and finish .</h2>
+
+- It maybe requires 10 minutes to complete the installation process. So, the installation process is almost complete, Check the box and click finish.<br>
+
+<a href="https://ibb.co/Gp50f7n"><img src="https://i.ibb.co/kBSxVK5/8-wait.jpg" alt="8-wait" border="0">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/N7H7JPR/8-check-and-finish.png" alt="8-check-and-finish" border="0"></a>
+
+
+<h2>10. Select and save the language</h2><br>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/GQxFNNc/9-click-save.png" alt="9-click-save" border="0"></a>
+
+<h2>11. XAMPP control panel</h2><br>
+Now, you can see the XAMPP control panel. Next, you have to start Apache and MySQL. See the screenshot.
+<a href="https://ibb.co/mHYV1qY"><img src="https://i.ibb.co/CnX3N7X/10-start-both.png" alt="10-start-both" border="0"></a><br>
+So, you can see the screen like below after start Apache and MySQL.<br>
+<a href="https://ibb.co/p3gL5Bs"><img src="https://i.ibb.co/D7NRTH6/11-after-start.png" alt="11-after-start" border="0"></a><br>
+Finally, you have installed the XAMPP in your windows. Even more, we have started the Apache and Mysql.
+
+
+
 
 <p>
 </p>
 <p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
-</p>  
-<img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <h2>XAMPP control panel</h2><br>
+After starting the XAMPP server we have to check it is properly work or not. Therefore, you have to follow below steps.
+  <h2>Open your web browser</h2><br>
+  First of all, open chrome browser. and write below syntax in the search bar.<br>
+  Note: Don’t forget the “/” after phpmyadmin. Because it maybe cause an error.<br>
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/Gp2cxC8/12-open-in-browser.png" alt="12-open-in-browser" border="0"></a>
 </p>
 <br />
-</p>
-<p>
-Excellent. Now that you have enabled IIS we need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-  That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
-</p>
-<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
-</p>
-<p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
-</p>
-<img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
-</p>
-<p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
-</P>
-<img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<p>
-</p>
-<p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
-</p>
-<img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<p>
-</p>
-<p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
-</p>
-<img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<p>
-</p>
-<p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Removeall
-New Permissions->Everyone->all
-</p>
-<img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<p>
-</p>
-<p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets. 
-</p>
-<img src="https://i.imgur.com/RmVk3q5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-Congratulations, hopefully it is installed with no errors!
-Clean up
-Delete: C:\inetpub\wwwroot\osTicket\setup
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+<h2>PHPMyAdmin Dashboard</h2><br>
+See the screenshot below. If you see the screen like this then your XAMPP is installed and work properly. If you can’t see a screen like a screenshot, Don’t worry. Go to the XAMPP control panel and restart Apache and MySql. Check again it must be work.<br>
+<a href="https://ibb.co/mSrK1Th"><img src="https://i.ibb.co/cxK9M32/13-phpmyadmin.webp" alt="13-phpmyadmin" border="0"></a><br>
+Finally, you can follow above all steps and install XAMPP very easily. I hope this tutorial will help you. Share this and spread your love.
